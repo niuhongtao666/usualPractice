@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/jquery/jquery.min.js"></script>
+</head>
+<body>
+<div id="main"></div>
+</body>
+<script>
+    var str='leek';
+    String.prototype.rever=function () {
+        var str1=this;
+        return str1.split('').reverse().join('');
+    }
+    console.log(str.rever());//keel
+</script>
+</html>

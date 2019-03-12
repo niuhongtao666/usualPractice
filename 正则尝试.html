@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="lib/jquery/jquery.min.js"></script>
+</head>
+<body>
+	<input type="text" name="" class="inp">
+	<button class="but">点击</button>
+</body>
+<script type="text/javascript">
+	$('.but').on('click',function() {
+		var a=$('.inp').val();
+		var con=a.match(/^((\d{2})(-)){2}\d$/)
+		if(con == null) {
+		    alert('不符合xx-xx-x');
+		}
+		console.log(["1","2","3"].map(parseInt))
+	})
+</script>
+</html>

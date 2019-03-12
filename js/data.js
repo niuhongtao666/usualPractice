@@ -1,0 +1,16 @@
+window.dataArray={
+    status:200,
+    dataList:[
+    {
+        name:"https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=d445f377369b033b2c88fbdc2df551ee/38dbb6fd5266d016094b705b952bd40735fa3576.jpg",
+        age:14
+    },{
+        name:"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=571640109,3906416773&fm=173&app=25&f=JPEG?w=218&h=146&s=BA1DA14C0EA385551BF377920300D08C",
+        age:15
+    }
+    ,
+    {
+        name:"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=571640109,3906416773&fm=173&app=25&f=JPEG?w=218&h=146&s=BA1DA14C0EA385551BF377920300D08C",
+        age:18
+    }
+]}
