@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .d1{
+            float: left;
+            width: 100%;
+        }
+        .d1::after{
+            content: '...';
+            float: left;
+            width: 3em;
+            background: green;
+        }
+        .d2{
+            float: left;
+            width: 3em;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        111
+    </div>
+    <div class="d2">
+        222
+    </div>
+</body>
+</html>
